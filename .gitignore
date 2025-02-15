@@ -1,0 +1,20 @@
+echo "
+# Ignore virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large dataset files
+*.csv
+*.tsv
+*.h5
+*.pickle
+
+# Ignore compiled and cache files
+*.log
+*.out
+.DS_Store
+" >> .gitignore
