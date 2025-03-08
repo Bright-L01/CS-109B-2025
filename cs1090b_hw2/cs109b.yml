@@ -1,0 +1,45 @@
+name: cs109b
+
+channels:
+- conda-forge
+
+dependencies:
+- aiohttp
+- arviz
+- beautifulsoup4
+- imageio
+- ipython
+- jupyterlab
+- keras>=3.0
+- lime
+- lxml
+- matplotlib
+- mysql-connector-python
+- networkx
+- nodejs
+- nltk
+- numpy
+- openpyxl
+- pandas
+- pillow
+- pip
+- pyarrow
+- python>=3.11
+- pymc
+- requests
+- scikit-learn
+- scipy
+- seaborn
+- selenium
+- statsmodels
+- tensorflow
+- pytorch
+- transformers
+- tqdm
+- xgboost
+- pip:
+  - nbopen
+  - otter-grader
+  - jupyterlab-vim
+  - tensorflow_datasets
+  - tf_keras_vis
